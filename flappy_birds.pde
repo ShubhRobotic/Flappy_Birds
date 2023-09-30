@@ -7,7 +7,7 @@ int score = 0;
 int lastPipePassed = -1;
 ArrayList<Pipe> pipes = new ArrayList<Pipe>();
 void setup() {
-  fullScreen();
+  size(1920,1080);
 
   flappyBird = loadImage("FlappyBird.png");
   imageMode(CENTER);
